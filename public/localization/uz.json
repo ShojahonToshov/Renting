@@ -1,0 +1,73 @@
+{
+  "home": "Bosh sahifa",
+  "catalog": "Katalog",
+  "contacts": "Aloqa",
+  "about": "Biz haqimizda",
+  "cart": "Savat",
+
+  "hero": {
+    "badge": "Katalogda yangi to'plam",
+    "title_line1": "O'zingizga mos",
+    "title_line2": "narsani toping",
+    "description": "Diqqat bilan tanlangan mahsulotlar, adolatli narxlar va tezkor yetkazib berish. Katalogga o'ting — u yerda ko'rishga arziydigan mahsulotlar sizni kutmoqda.",
+    "cta_catalog": "Katalogga o'tish",
+    "cta_more": "Batafsil"
+  },
+
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan"
+  },
+
+  "catalog_page": {
+    "in_stock": "Mavjud",
+    "meters": "m"
+  },
+
+  "product": {
+    "sku": "Artikul",
+    "stock": "Mavjud",
+    "manufacturer": "Ishlab chiqaruvchi",
+    "country": "Mamlakat",
+    "cores": "O'tkazgichlar soni",
+    "conductor_material": "O'tkazgich materiali",
+    "cross_section": "Kabel kesimi",
+    "conductor_insulation": "O'tkazgich izolyatsiyasi",
+    "outer_insulation": "Tashqi izolyatsiya",
+    "sheath_material": "Qobiq materiali",
+    "model_version": "Model versiyasi",
+    "color": "Rang",
+    "created": "Yaratilgan",
+    "updated": "Yangilangan",
+    "add_to_cart": "Savatga qo'shish"
+  },
+
+  "contacts_page": {
+    "badge": "Biz bilan bog'laning",
+    "title1": "Biz bilan",
+    "title2": "aloqada bo'ling",
+    "description": "Mahsulotlar yoki buyurtmangiz haqida savollaringiz bormi? Bizning jamoamiz har doim yordam berishga tayyor. Xabar yuboring — imkon qadar tezroq javob beramiz.",
+    "form": {
+      "name": "Ism",
+      "email": "Email",
+      "message": "Xabar",
+      "submit": "Yuborish"
+    },
+    "address": "Toshkent, O'zbekiston",
+    "available": "Butun dunyo bo'ylab onlayn mavjud"
+  },
+
+  "about_page": {
+    "badge": "Biz haqimizda",
+    "title": "Biz kimmiz",
+    "description": "Biz xaridlar oddiy, yoqimli va har kimga ochiq bo'lishi kerak deb hisoblaymiz. Maqsadimiz — yuqori sifat va xizmat bilan diqqat bilan tanlangan mahsulotlarni taklif qilish.",
+    "story_title": "Bizning tariximiz",
+    "story_p1": "Sifat va rivojlanishga bo'lgan ishtiyoq bilan tashkil etilgan kompaniyamiz ishonchli mahsulotlar va yoqimli xarid tajribasini istagan xaridorlar uchun ishonchli manzilga aylandi.",
+    "story_p2": "To'plamimizdagi har bir mahsulot sifat, uslub va narx bo'yicha yuqori standartlarga javob berishi uchun diqqat bilan tanlanadi. Biz mijozlarimiz bilan halollik, shaffoflik va ajoyib qo'llab-quvvatlash orqali uzoq muddatli munosabatlar quramiz.",
+    "stats": {
+      "customers": "Mamnun mijozlar",
+      "products": "Premium mahsulotlar",
+      "support": "Mijozlarni qo'llab-quvvatlash",
+      "reviews": "Ijobiy sharhlar"
+    }
+  }
+}

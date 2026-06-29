@@ -1,0 +1,73 @@
+{
+  "home": "Home",
+  "catalog": "Catalog",
+  "contacts": "Contacts",
+  "about": "About",
+  "cart": "Cart",
+
+  "hero": {
+    "badge": "New collection now in the catalog",
+    "title_line1": "Find what",
+    "title_line2": "truly fits you",
+    "description": "A carefully curated selection, fair prices, and fast delivery. Check out the catalog — there's already something worth seeing.",
+    "cta_catalog": "Browse catalog",
+    "cta_more": "Learn more"
+  },
+
+  "footer": {
+    "rights": "All rights reserved"
+  },
+
+  "catalog_page": {
+    "in_stock": "In stock",
+    "meters": "m"
+  },
+
+  "product": {
+    "sku": "SKU",
+    "stock": "In stock",
+    "manufacturer": "Manufacturer",
+    "country": "Country",
+    "cores": "Number of cores",
+    "conductor_material": "Conductor material",
+    "cross_section": "Cable cross-section",
+    "conductor_insulation": "Conductor insulation",
+    "outer_insulation": "Outer insulation",
+    "sheath_material": "Sheath material",
+    "model_version": "Model version",
+    "color": "Color",
+    "created": "Created",
+    "updated": "Updated",
+    "add_to_cart": "Add to cart"
+  },
+
+  "contacts_page": {
+    "badge": "Get in touch",
+    "title1": "Get in",
+    "title2": "Touch",
+    "description": "Have questions about our products or your order? Our team is here to help. Send us a message and we'll get back to you as soon as possible.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message"
+    },
+    "address": "Tashkent, Uzbekistan",
+    "available": "Available online worldwide"
+  },
+
+  "about_page": {
+    "badge": "About us",
+    "title": "Who we are",
+    "description": "We believe shopping should be simple, enjoyable, and accessible to everyone. Our goal is to offer carefully selected products with excellent quality and service.",
+    "story_title": "Our story",
+    "story_p1": "Founded with a passion for quality and growth, we've become a trusted destination for shoppers looking for reliable products and a great shopping experience.",
+    "story_p2": "Every item in our collection is carefully chosen to meet high standards of quality, style, and value. We build long-term relationships with our customers through honesty, transparency, and outstanding support.",
+    "stats": {
+      "customers": "Happy customers",
+      "products": "Premium products",
+      "support": "Customer support",
+      "reviews": "Positive reviews"
+    }
+  }
+}
