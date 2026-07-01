@@ -19,6 +19,7 @@ export default function Navbar() {
     { to: "/catalog", label: t("catalog") },
     { to: "/contacts", label: t("contacts") },
     { to: "/about", label: t("about") },
+    { to: "/usersdata", label: t("usersdata") },
   ];
 
   return (

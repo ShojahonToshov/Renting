@@ -1,9 +1,34 @@
+import axios from "axios";
 import { ArrowRight, Mail, MessageCircle } from "lucide-react";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import toast from "react-hot-toast";
+
 import { useTranslation } from "react-i18next";
 
-export default function Contacts() {
+export default function Contacts({}) {
   const { t } = useTranslation();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const PostData = async function (e) {
+    if (!name || !email || !message) {
+      toast.error("Iltimos barcha maydonlarni to'ldiring");
+      return false;
+    }
+    try {
+      const res = await axios.post(`http://localhost:3000/user`, {
+        name: name,
+        email: email,
+        message: message,
+      });
+      console.log(res);
+    } catch (error) {
+      console.log(error);
+    } finally {
+      toast.success("hi");
+    }
+  };
 
   return (
     <section className="body-font bg-gradient-to-b from-emerald-50/60 via-white to-white dark:from-gray-900 dark:via-gray-950 dark:to-gray-950">
@@ -40,6 +65,9 @@ export default function Contacts() {
                     {t("contacts_page.form.name")}
                   </label>
                   <input
+                    onChange={(x) => {
+                      setName(x.target.value);
+                    }}
                     type="text"
                     id="name"
                     name="name"
@@ -58,6 +86,9 @@ export default function Contacts() {
                     {t("contacts_page.form.email")}
                   </label>
                   <input
+                    onChange={(x) => {
+                      setEmail(x.target.value);
+                    }}
                     type="email"
                     id="email"
                     name="email"
@@ -76,6 +107,9 @@ export default function Contacts() {
                     {t("contacts_page.form.message")}
                   </label>
                   <textarea
+                    onChange={(x) => {
+                      setMessage(x.target.value);
+                    }}
                     id="message"
                     name="message"
                     className="h-32 w-full resize-none rounded-lg border-[1.5px] border-emerald-200 bg-emerald-50/60 px-3.5 py-2.5 text-sm text-gray-900 outline-none transition-all focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-500/15 dark:border-gray-600 dark:bg-gray-700/60 dark:text-white dark:focus:bg-gray-700"
@@ -85,10 +119,17 @@ export default function Contacts() {
 
               {/* Submit button */}
               <div className="w-full p-2">
-                <button className="mx-auto flex items-center gap-2 rounded-full bg-emerald-500 px-9 py-3 text-[15px] font-semibold text-white shadow-md shadow-emerald-500/30 transition-all hover:-translate-y-0.5 hover:bg-emerald-600 active:scale-95">
+                {/* <button
+                  type="button" // 👈 shuni qo'shing — eng muhim tuzatish
+                  onClick={() => {
+                    PostData();
+                  }}
+                  className="mx-auto flex items-center gap-2 rounded-full bg-emerald-500 px-9 py-3 text-[15px] font-semibold text-white shadow-md shadow-emerald-500/30 transition-all hover:-translate-y-0.5 hover:bg-emerald-600 active:scale-95"
+                >
                   {t("contacts_page.form.submit")}
                   <ArrowRight size={16} />
-                </button>
+                </button> */}
+                <div onClick={() => PostData()}>test</div>
               </div>
 
               {/* Divider + contacts */}
