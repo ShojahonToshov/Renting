@@ -12,6 +12,7 @@ import "../home-swiper.css";
 
 // import required modules
 import { Autoplay, Mousewheel, Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const pictures = [
   "https://picsum.photos/id/10/600/800",
@@ -40,13 +41,15 @@ export default function Home() {
             {t("hero.description")}
           </p>
           <div className="flex justify-center gap-4">
-            <button className="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-6 py-2.5 text-lg font-medium text-white shadow-sm shadow-emerald-500/30 transition-all hover:bg-emerald-600 hover:shadow-md active:scale-95">
+            <Link to="/catalog"><button className="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-6 py-2.5 text-lg font-medium text-white shadow-sm shadow-emerald-500/30 transition-all hover:bg-emerald-600 hover:shadow-md active:scale-95">
               {t("hero.cta_catalog")}
               <ArrowRight size={18} />
-            </button>
+            </button></Link>
+            <Link to="/about">
             <button className="inline-flex items-center rounded-full bg-emerald-100 px-6 py-2.5 text-lg font-medium text-emerald-700 transition-all hover:bg-emerald-200 active:scale-95 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700">
               {t("hero.cta_more")}
             </button>
+            </Link>
           </div>
         </div>
         <div className="h-[500px] w-5/6 rounded-[28px] bg-white/40 p-2 shadow-xl shadow-emerald-900/10 ring-1 ring-emerald-900/10 backdrop-blur md:w-1/2 lg:w-full lg:max-w-lg dark:bg-gray-800/40 dark:ring-white/10">

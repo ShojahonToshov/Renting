@@ -1,15 +1,23 @@
 import { Sparkles } from "lucide-react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-t from-emerald-50/90 via-emerald-50/60 to-transparent backdrop-blur-md dark:from-gray-900/90 dark:via-gray-900/60">
       <div className="container mx-auto flex flex-col items-center px-5 py-8 sm:flex-row">
-        <a className="flex items-center justify-center title-font font-medium text-gray-900 md:justify-start dark:text-white">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-500 text-white shadow-sm shadow-emerald-500/30">
-            <Sparkles size={20} />
-          </span>
-          <span className="ml-3 text-xl font-semibold tracking-tight">Tailblocks</span>
+        <a className="flex items-center justify-center title-font font-medium text-gray-900 md:justify-start dark:text-white gap-4">
+          
+          <Link to="/">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-500 text-white shadow-sm shadow-emerald-500/30">
+                        <Sparkles size={20} />
+                      </span>
+                    </Link>
+                    <Link to="/">
+                      <span className="text-xl font-semibold tracking-tight">
+                        Tailblocks
+                      </span>
+                    </Link>
         </a>
 
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:mt-0 sm:py-2 dark:text-gray-400">

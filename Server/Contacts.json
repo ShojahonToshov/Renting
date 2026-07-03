@@ -1,266 +1,125 @@
 {
   "user": [
     {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "4EC33ja-iEI"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "lsZmHu9XMIo"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "eHXngkYNDKs"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "2egsqkZ2whc"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "DY3nO_9T1sc"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "vtJAECfr8hM"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "w9UbfFKUDEg"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "AalLucBzJmQ"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "NPLRXkMtrtY"
-    },
-    {
-      "name": "Shojahon Toshov",
-      "email": "kkkkkkkkkkkkkkk",
-      "message": "asdf",
-      "id": "E0BEgXlp8Tk"
-    },
-    {
-      "name": "asd",
-      "email": "asd",
-      "message": "asd",
-      "id": "KmEwWGzKpLw"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "aog4jj_J2vs"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "pMBDFonQnlw"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "uv8mIoJHk0c"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "1fQ7C9S3QhQ"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "KzT_ipCjHDE"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "YevjGNR7DO8"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "zIx3c17jGGY"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "cTtJyOHRes8"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "X-p6MjdLwA0"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "xhk2IoZASTI"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "DZZnUdjD5j4"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "1WJIPVSmTME"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "j8eNgPSjLE4"
-    },
-    {
-      "name": "asd",
-      "email": "asd",
-      "message": "asd",
-      "id": "zqiN0w69588"
-    },
-    {
-      "name": "Shojahon Toshov",
-      "email": "kkkkkkkkkkkkkkk",
-      "message": "h",
-      "id": "WnwCH9LWAHU"
-    },
-    {
-      "name": "Shojahon Toshov",
-      "email": "sd",
-      "message": "sd",
-      "id": "72xjhZq5hGg"
-    },
-    {
-      "name": "s",
-      "email": "s",
-      "message": "s",
-      "id": "xC9R8dJEAaM"
-    },
-    {
-      "name": "d",
-      "email": "d",
-      "message": "d",
-      "id": "aZtelfMcIgA"
-    },
-    {
-      "name": "asd",
-      "email": "as",
-      "message": "as",
-      "id": "L81tKa74lRc"
-    },
-    {
-      "name": "as",
-      "email": "a",
-      "message": "a",
-      "id": "3UaPkJaaUE0"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "qw8YLRE7dI4"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "VGCaVOJRF00"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "334aGPdj5vk"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "I8wzf0axF34"
-    },
-    {
-      "name": "",
-      "email": "",
-      "message": "",
-      "id": "j-YaX56nlzg"
-    },
-    {
-      "name": "sdfasdsdfsdf",
-      "email": "sdf",
-      "message": "sdf",
-      "id": "Guzd-wleGiY"
-    },
-    {
-      "id": "w9800B6mETo"
-    },
-    {
-      "name": "as",
-      "email": "sa",
-      "message": "as",
-      "id": "IbDTa6dGNqs"
-    },
-    {
-      "name": "as",
-      "email": "as",
-      "message": "a",
-      "id": "1NzEAcq_B8A"
-    },
-    {
-      "name": "as",
-      "email": "as",
-      "message": "as",
-      "id": "mly_G1D3E_k"
-    },
-    {
-      "name": "as",
-      "email": "as",
-      "message": "as",
-      "id": "cMWNyLShLBI"
-    },
-    {
-      "name": "as",
-      "email": "as",
-      "message": "as",
-      "id": "oh6hKIsWhE0"
-    },
-    {
-      "name": "we",
-      "email": "we",
-      "message": "we",
-      "id": "1ZO8jPyy6pI"
-    }
+    "name": "Albert Einstein",
+    "email": "albert.einstein@relativitylab.com",
+    "message": "Время относительно. Но ответ на это сообщение хотелось бы получить сегодня 😄",
+    "id": "A1B2C3D4E5"
+  },
+  {
+    "name": "Nikola Tesla",
+    "email": "nikola.tesla@acpower.io",
+    "message": "У меня есть ещё парочка идей, которые опередили своё время.",
+    "id": "F6G7H8I9J0"
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "email": "leonardo@renaissance.art",
+    "message": "Нарисовал прототип вашего приложения ещё в XV веке.",
+    "id": "K1L2M3N4O5"
+  },
+  {
+    "name": "Isaac Newton",
+    "email": "isaac.newton@gravity.org",
+    "message": "Если яблоко упало, значит и дедлайн тоже приближается.",
+    "id": "P6Q7R8S9T0"
+  },
+  {
+    "name": "Marie Curie",
+    "email": "marie.curie@radiance.lab",
+    "message": "Обещаю, мой код не настолько радиоактивен.",
+    "id": "U1V2W3X4Y5"
+  },
+  {
+    "name": "Galileo Galilei",
+    "email": "galileo@stars.space",
+    "message": "И всё-таки этот сервер крутится!",
+    "id": "Z6A7B8C9D0"
+  },
+  {
+    "name": "Julius Caesar",
+    "email": "caesar@rome.empire",
+    "message": "Пришёл. Увидел. Отправил POST-запрос.",
+    "id": "E1F2G3H4I5"
+  },
+  {
+    "name": "Cleopatra",
+    "email": "cleopatra@egypt.queen",
+    "message": "Надеюсь, интерфейс будет достоин царицы.",
+    "id": "J6K7L8M9N0"
+  },
+  {
+    "name": "Alexander the Great",
+    "email": "alexander@macedonia.world",
+    "message": "Покорил полмира, теперь хочу покорить ваш API.",
+    "id": "O1P2Q3R4S5"
+  },
+  {
+    "name": "Napoleon Bonaparte",
+    "email": "napoleon@empire.fr",
+    "message": "План был идеален... пока не встретился с багами.",
+    "id": "T6U7V8W9X0"
+  },
+  {
+    "name": "William Shakespeare",
+    "email": "william@globe.theatre",
+    "message": "Быть или не быть... вот в чём вопрос. И где документация?",
+    "id": "Y1Z2A3B4C5"
+  },
+  {
+    "name": "Bruce Lee",
+    "email": "bruce.lee@dragon.dojo",
+    "message": "Будь как вода... и как хорошо оптимизированный код.",
+    "id": "D6E7F8G9H0"
+  },
+  {
+    "name": "Michael Jackson",
+    "email": "michael@moonwalk.music",
+    "message": "Этот проект настолько хорош, что хочется сделать moonwalk.",
+    "id": "I1J2K3L4M5"
+  },
+  {
+    "name": "Elvis Presley",
+    "email": "elvis@graceland.rock",
+    "message": "Thank you, thank you very much... за отличный UI!",
+    "id": "N6O7P8Q9R0"
+  },
+  {
+    "name": "Charlie Chaplin",
+    "email": "charlie@silent.movie",
+    "message": "Иногда лучший комментарий к коду — его отсутствие.",
+    "id": "S1T2U3V4W5"
+  },
+  {
+    "name": "Steve Jobs",
+    "email": "steve.jobs@nextvision.com",
+    "message": "Давайте сделаем это не просто рабочим, а невероятным.",
+    "id": "X6Y7Z8A9B0"
+  },
+  {
+    "name": "Bill Gates",
+    "email": "bill.gates@windows.foundation",
+    "message": "Главное, чтобы не пришлось выпускать Service Pack.",
+    "id": "C1D2E3F4G5"
+  },
+  {
+    "name": "Mark Zuckerberg",
+    "email": "mark@metaverse.social",
+    "message": "Я уже добавил ваш проект в метавселенную.",
+    "id": "H6I7J8K9L0"
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "email": "cristiano@goat.football",
+    "message": "Siuuu! Этот проект заслуживает 10 из 10.",
+    "id": "M1N2O3P4Q5"
+  },
+  {
+    "name": "Lionel Messi",
+    "email": "leo.messi@magicfoot.ai",
+    "message": "Передаю идеальный пас... прямо вашему backend'у.",
+    "id": "R6S7T8U9V0"
+  }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }

@@ -6,27 +6,46 @@ import toast from "react-hot-toast";
 import { useTranslation } from "react-i18next";
 
 export default function Contacts({}) {
+  const [errorr, setErrorr] = useState({
+    name: false,
+    email: false,
+    message: false,
+  });
   const { t } = useTranslation();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const PostData = async function (e) {
+  const PostData = async function () {
     if (!name || !email || !message) {
       toast.error("Iltimos barcha maydonlarni to'ldiring");
+      setErrorr({
+        name: !name,
+        email: !email,
+        message: !message,
+      });
+      console.log(errorr);
+
       return false;
     }
     try {
-      const res = await axios.post(`http://localhost:3000/user`, {
+      await axios.post(`http://localhost:3000/user`, {
         name: name,
         email: email,
         message: message,
       });
-      console.log(res);
+      toast.success("Xabaringiz yuborildi");
+      setName("");
+      setEmail("");
+      setMessage("");
+      setErrorr({
+        name: false,
+        email: false,
+        message: false,
+      });
     } catch (error) {
       console.log(error);
-    } finally {
-      toast.success("hi");
+      toast.error("Xatolik yuz berdi, qayta urinib ko'ring");
     }
   };
 
@@ -65,13 +84,18 @@ export default function Contacts({}) {
                     {t("contacts_page.form.name")}
                   </label>
                   <input
+                    value={name}
                     onChange={(x) => {
                       setName(x.target.value);
+                      setErrorr({
+                        ...errorr,
+                        name: false,
+                      });
                     }}
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full rounded-lg border-[1.5px] border-emerald-200 bg-emerald-50/60 px-3.5 py-2.5 text-sm text-gray-900 outline-none transition-all focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-500/15 dark:border-gray-600 dark:bg-gray-700/60 dark:text-white dark:focus:bg-gray-700"
+                    className={`w-full rounded-lg border-[1.5px] ${errorr.name ? "border-red-400" : "border-emerald-200"} bg-emerald-50/60 px-3.5 py-2.5 text-sm text-gray-900 outline-none transition-all focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-500/15 dark:border-gray-600 dark:bg-gray-700/60 dark:text-white dark:focus:bg-gray-700`}
                   />
                 </div>
               </div>
@@ -86,13 +110,18 @@ export default function Contacts({}) {
                     {t("contacts_page.form.email")}
                   </label>
                   <input
+                    value={email}
                     onChange={(x) => {
                       setEmail(x.target.value);
+                      setErrorr({
+                        ...errorr,
+                        email: false,
+                      });
                     }}
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full rounded-lg border-[1.5px] border-emerald-200 bg-emerald-50/60 px-3.5 py-2.5 text-sm text-gray-900 outline-none transition-all focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-500/15 dark:border-gray-600 dark:bg-gray-700/60 dark:text-white dark:focus:bg-gray-700"
+                    className={`w-full rounded-lg border-[1.5px] ${errorr.email ? "border-red-400" : "border-emerald-200"} bg-emerald-50/60 px-3.5 py-2.5 text-sm text-gray-900 outline-none transition-all focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-500/15 dark:border-gray-600 dark:bg-gray-700/60 dark:text-white dark:focus:bg-gray-700`}
                   />
                 </div>
               </div>
@@ -107,20 +136,25 @@ export default function Contacts({}) {
                     {t("contacts_page.form.message")}
                   </label>
                   <textarea
+                    value={message}
                     onChange={(x) => {
                       setMessage(x.target.value);
+                      setErrorr({
+                        ...errorr,
+                        message: false,
+                      });
                     }}
                     id="message"
                     name="message"
-                    className="h-32 w-full resize-none rounded-lg border-[1.5px] border-emerald-200 bg-emerald-50/60 px-3.5 py-2.5 text-sm text-gray-900 outline-none transition-all focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-500/15 dark:border-gray-600 dark:bg-gray-700/60 dark:text-white dark:focus:bg-gray-700"
+                    className={`h-32 w-full resize-none rounded-lg border-[1.5px] ${errorr.message ? "border-red-400" : "border-emerald-200"} bg-emerald-50/60 px-3.5 py-2.5 text-sm text-gray-900 outline-none transition-all focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-500/15 dark:border-gray-600 dark:bg-gray-700/60 dark:text-white dark:focus:bg-gray-700`}
                   />
                 </div>
               </div>
 
               {/* Submit button */}
               <div className="w-full p-2">
-                {/* <button
-                  type="button" // 👈 shuni qo'shing — eng muhim tuzatish
+                <button
+                  type="button"
                   onClick={() => {
                     PostData();
                   }}
@@ -128,8 +162,7 @@ export default function Contacts({}) {
                 >
                   {t("contacts_page.form.submit")}
                   <ArrowRight size={16} />
-                </button> */}
-                <div onClick={() => PostData()}>test</div>
+                </button>
               </div>
 
               {/* Divider + contacts */}
