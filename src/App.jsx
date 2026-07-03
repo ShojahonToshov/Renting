@@ -14,7 +14,7 @@ import Cart from "./Pages/Cart";
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col pt-20">
       <Toaster position="top-center" />
       <Navbar />
       <div className="grow">

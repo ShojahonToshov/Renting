@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <header className="fixed w-full top-0 z-40  bg-gradient-to-b from-emerald-50/90 via-emerald-50/60 to-transparent backdrop-blur-md dark:from-gray-900/90 dark:via-gray-900/60 ">
+      <header className="fixed w-full top-0 z-50 bg-gradient-to-b from-emerald-50/90 via-emerald-50/60 to-transparent backdrop-blur-md dark:from-gray-900/90 dark:via-gray-900/60">
         <div className="from-emerald-50/90 via-emerald-50/60 container mx-auto flex items-center gap-4 p-4 md:px-6">
           {/* Logo + theme toggle */}
           <a className="flex items-center gap-3 title-font font-medium text-gray-900 dark:text-white">
