@@ -3,7 +3,7 @@ import { Mail, MessageSquare, Pencil, Trash2, User, X } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 
-export default function UsersData() {
+export default function Messages() {
   const [editmodal, setEditmodal] = useState(null);
   const [newdata, setNewdata] = useState({
     name: "",

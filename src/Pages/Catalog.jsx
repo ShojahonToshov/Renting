@@ -7,10 +7,10 @@ export default function Catalog() {
   const getData = async function () {
     try {
       const res = await axios(
-        "https://api.electro.motorsdream.ru/api/v1/products/products/",
+        "http://localhost:3000/products",
       );
-      setData(res.data.results);
-      console.log(res.data.results);
+      setData(res.data);
+     
     } catch (error) {}
   };
 

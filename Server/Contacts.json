@@ -1,125 +1,1067 @@
 {
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple Pro 3",
+      "sku": "APP-1001",
+      "description": "Apple Pro 3 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "1105.00",
+      "stock": 111,
+      "manufacturer": "Apple",
+      "country_of_origin": "USA",
+      "number_of_cores": 12,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2026",
+      "color": "White",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 409,
+        "name": "Ноутбуки",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Электроника"
+        }
+      },
+      "images": [
+        {
+          "id": 11,
+          "image": "https://picsum.photos/seed/1a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 12,
+          "image": "https://picsum.photos/seed/1b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "2",
+      "name": "Samsung X 13",
+      "sku": "SAM-1002",
+      "description": "Samsung X 13 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "879.00",
+      "stock": 167,
+      "manufacturer": "Samsung",
+      "country_of_origin": "South Korea",
+      "number_of_cores": 10,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2026",
+      "color": "White",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 126,
+        "name": "Клавиатуры",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 21,
+          "image": "https://picsum.photos/seed/2a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 22,
+          "image": "https://picsum.photos/seed/2b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "3",
+      "name": "Sony Max 5",
+      "sku": "SON-1003",
+      "description": "Sony Max 5 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "414.00",
+      "stock": 237,
+      "manufacturer": "Sony",
+      "country_of_origin": "Japan",
+      "number_of_cores": 8,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2025",
+      "color": "Blue",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 122,
+        "name": "Мониторы",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 31,
+          "image": "https://picsum.photos/seed/3a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 32,
+          "image": "https://picsum.photos/seed/3b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "4",
+      "name": "ASUS Lite 14",
+      "sku": "ASU-1004",
+      "description": "ASUS Lite 14 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "1925.00",
+      "stock": 205,
+      "manufacturer": "ASUS",
+      "country_of_origin": "Taiwan",
+      "number_of_cores": 10,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2026",
+      "color": "Gray",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 409,
+        "name": "Ноутбуки",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Электроника"
+        }
+      },
+      "images": [
+        {
+          "id": 41,
+          "image": "https://picsum.photos/seed/4a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 42,
+          "image": "https://picsum.photos/seed/4b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "5",
+      "name": "Lenovo Ultra 13",
+      "sku": "LEN-1005",
+      "description": "Lenovo Ultra 13 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "168.00",
+      "stock": 66,
+      "manufacturer": "Lenovo",
+      "country_of_origin": "China",
+      "number_of_cores": 8,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "MK II",
+      "color": "Black",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 122,
+        "name": "Мониторы",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 51,
+          "image": "https://picsum.photos/seed/5a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 52,
+          "image": "https://picsum.photos/seed/5b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "6",
+      "name": "Xiaomi Ultra 4",
+      "sku": "XIA-1006",
+      "description": "Xiaomi Ultra 4 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "2407.00",
+      "stock": 199,
+      "manufacturer": "Xiaomi",
+      "country_of_origin": "China",
+      "number_of_cores": 6,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2026",
+      "color": "White",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 409,
+        "name": "Ноутбуки",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Электроника"
+        }
+      },
+      "images": [
+        {
+          "id": 61,
+          "image": "https://picsum.photos/seed/6a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 62,
+          "image": "https://picsum.photos/seed/6b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "7",
+      "name": "Logitech Ultra 13",
+      "sku": "LOG-1007",
+      "description": "Logitech Ultra 13 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "2320.00",
+      "stock": 95,
+      "manufacturer": "Logitech",
+      "country_of_origin": "Switzerland",
+      "number_of_cores": 10,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "Gen 2",
+      "color": "White",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 122,
+        "name": "Мониторы",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 71,
+          "image": "https://picsum.photos/seed/7a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 72,
+          "image": "https://picsum.photos/seed/7b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "8",
+      "name": "JBL Ultra 16",
+      "sku": "JBL-1008",
+      "description": "JBL Ultra 16 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "932.00",
+      "stock": 82,
+      "manufacturer": "JBL",
+      "country_of_origin": "USA",
+      "number_of_cores": 6,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2026",
+      "color": "Blue",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 126,
+        "name": "Клавиатуры",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 81,
+          "image": "https://picsum.photos/seed/8a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 82,
+          "image": "https://picsum.photos/seed/8b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "9",
+      "name": "Dell Pro 10",
+      "sku": "DEL-1009",
+      "description": "Dell Pro 10 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "2366.00",
+      "stock": 186,
+      "manufacturer": "Dell",
+      "country_of_origin": "USA",
+      "number_of_cores": 10,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2026",
+      "color": "Silver",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 126,
+        "name": "Клавиатуры",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 91,
+          "image": "https://picsum.photos/seed/9a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 92,
+          "image": "https://picsum.photos/seed/9b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "10",
+      "name": "HP Lite 1",
+      "sku": "HP-1010",
+      "description": "HP Lite 1 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "2426.00",
+      "stock": 162,
+      "manufacturer": "HP",
+      "country_of_origin": "USA",
+      "number_of_cores": 6,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "Gen 2",
+      "color": "Black",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 668,
+        "name": "Наушники",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Аудио"
+        }
+      },
+      "images": [
+        {
+          "id": 101,
+          "image": "https://picsum.photos/seed/10a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 102,
+          "image": "https://picsum.photos/seed/10b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "11",
+      "name": "Acer Max 2",
+      "sku": "ACE-1011",
+      "description": "Acer Max 2 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "284.00",
+      "stock": 240,
+      "manufacturer": "Acer",
+      "country_of_origin": "Taiwan",
+      "number_of_cores": 6,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2025",
+      "color": "Silver",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 668,
+        "name": "Наушники",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Аудио"
+        }
+      },
+      "images": [
+        {
+          "id": 111,
+          "image": "https://picsum.photos/seed/11a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 112,
+          "image": "https://picsum.photos/seed/11b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "12",
+      "name": "MSI Pro 8",
+      "sku": "MSI-1012",
+      "description": "MSI Pro 8 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "2280.00",
+      "stock": 172,
+      "manufacturer": "MSI",
+      "country_of_origin": "Taiwan",
+      "number_of_cores": 8,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "MK II",
+      "color": "Blue",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 668,
+        "name": "Наушники",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Аудио"
+        }
+      },
+      "images": [
+        {
+          "id": 121,
+          "image": "https://picsum.photos/seed/12a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 122,
+          "image": "https://picsum.photos/seed/12b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "13",
+      "name": "Canon Ultra 6",
+      "sku": "CAN-1013",
+      "description": "Canon Ultra 6 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "1555.00",
+      "stock": 204,
+      "manufacturer": "Canon",
+      "country_of_origin": "Japan",
+      "number_of_cores": 8,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "MK II",
+      "color": "Blue",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 668,
+        "name": "Наушники",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Аудио"
+        }
+      },
+      "images": [
+        {
+          "id": 131,
+          "image": "https://picsum.photos/seed/13a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 132,
+          "image": "https://picsum.photos/seed/13b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "14",
+      "name": "Nikon X 8",
+      "sku": "NIK-1014",
+      "description": "Nikon X 8 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "1540.00",
+      "stock": 121,
+      "manufacturer": "Nikon",
+      "country_of_origin": "Japan",
+      "number_of_cores": 10,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "MK II",
+      "color": "Blue",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 126,
+        "name": "Клавиатуры",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 141,
+          "image": "https://picsum.photos/seed/14a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 142,
+          "image": "https://picsum.photos/seed/14b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "15",
+      "name": "GoPro Air 12",
+      "sku": "GOP-1015",
+      "description": "GoPro Air 12 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "414.00",
+      "stock": 225,
+      "manufacturer": "GoPro",
+      "country_of_origin": "USA",
+      "number_of_cores": 4,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2025",
+      "color": "Gray",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 126,
+        "name": "Клавиатуры",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 151,
+          "image": "https://picsum.photos/seed/15a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 152,
+          "image": "https://picsum.photos/seed/15b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "16",
+      "name": "Anker X 5",
+      "sku": "ANK-1016",
+      "description": "Anker X 5 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "767.00",
+      "stock": 46,
+      "manufacturer": "Anker",
+      "country_of_origin": "China",
+      "number_of_cores": 4,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2025",
+      "color": "White",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 668,
+        "name": "Наушники",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Аудио"
+        }
+      },
+      "images": [
+        {
+          "id": 161,
+          "image": "https://picsum.photos/seed/16a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 162,
+          "image": "https://picsum.photos/seed/16b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "17",
+      "name": "Razer Pro 13",
+      "sku": "RAZ-1017",
+      "description": "Razer Pro 13 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "468.00",
+      "stock": 212,
+      "manufacturer": "Razer",
+      "country_of_origin": "Singapore",
+      "number_of_cores": 4,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "Gen 2",
+      "color": "Gray",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 409,
+        "name": "Ноутбуки",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Электроника"
+        }
+      },
+      "images": [
+        {
+          "id": 171,
+          "image": "https://picsum.photos/seed/17a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 172,
+          "image": "https://picsum.photos/seed/17b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "18",
+      "name": "Philips Lite 7",
+      "sku": "PHI-1018",
+      "description": "Philips Lite 7 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "163.00",
+      "stock": 215,
+      "manufacturer": "Philips",
+      "country_of_origin": "Netherlands",
+      "number_of_cores": 12,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "2026",
+      "color": "Gray",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 409,
+        "name": "Ноутбуки",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Электроника"
+        }
+      },
+      "images": [
+        {
+          "id": 181,
+          "image": "https://picsum.photos/seed/18a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 182,
+          "image": "https://picsum.photos/seed/18b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "19",
+      "name": "TP-Link Max 12",
+      "sku": "TP--1019",
+      "description": "TP-Link Max 12 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "1164.00",
+      "stock": 112,
+      "manufacturer": "TP-Link",
+      "country_of_origin": "China",
+      "number_of_cores": 10,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "Gen 2",
+      "color": "Blue",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 126,
+        "name": "Клавиатуры",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Компьютеры"
+        }
+      },
+      "images": [
+        {
+          "id": 191,
+          "image": "https://picsum.photos/seed/19a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 192,
+          "image": "https://picsum.photos/seed/19b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    },
+    {
+      "id": "20",
+      "name": "DJI Lite 14",
+      "sku": "DJI-1020",
+      "description": "DJI Lite 14 — современное устройство с качественным дисплеем, высокой производительностью, энергоэффективностью и поддержкой актуальных технологий. Подходит для работы, учебы и развлечений.",
+      "price_per_meter": "910.00",
+      "stock": 33,
+      "manufacturer": "DJI",
+      "country_of_origin": "China",
+      "number_of_cores": 4,
+      "conductor_material": "N/A",
+      "cable_cross_section": "N/A",
+      "outer_insulation_material": "N/A",
+      "conductor_insulation_material": "N/A",
+      "outer_sheath_material": "N/A",
+      "model_version": "Gen 2",
+      "color": "Black",
+      "is_active": true,
+      "created_at": "2026-01-15T10:20:00+03:00",
+      "updated_at": "2026-06-18T14:30:00+03:00",
+      "sub_category": {
+        "id": 578,
+        "name": "Смартфоны",
+        "description": "Категория электроники.",
+        "main_category": {
+          "id": 1,
+          "name": "Электроника"
+        }
+      },
+      "images": [
+        {
+          "id": 201,
+          "image": "https://picsum.photos/seed/20a/800/800",
+          "is_main": true,
+          "order": 0
+        },
+        {
+          "id": 202,
+          "image": "https://picsum.photos/seed/20b/800/800",
+          "is_main": false,
+          "order": 1
+        }
+      ],
+      "meterages": [],
+      "is_favourite": false,
+      "user": 1
+    }
+  ],
   "user": [
     {
-    "name": "Albert Einstein",
-    "email": "albert.einstein@relativitylab.com",
-    "message": "Время относительно. Но ответ на это сообщение хотелось бы получить сегодня 😄",
-    "id": "A1B2C3D4E5"
-  },
-  {
-    "name": "Nikola Tesla",
-    "email": "nikola.tesla@acpower.io",
-    "message": "У меня есть ещё парочка идей, которые опередили своё время.",
-    "id": "F6G7H8I9J0"
-  },
-  {
-    "name": "Leonardo da Vinci",
-    "email": "leonardo@renaissance.art",
-    "message": "Нарисовал прототип вашего приложения ещё в XV веке.",
-    "id": "K1L2M3N4O5"
-  },
-  {
-    "name": "Isaac Newton",
-    "email": "isaac.newton@gravity.org",
-    "message": "Если яблоко упало, значит и дедлайн тоже приближается.",
-    "id": "P6Q7R8S9T0"
-  },
-  {
-    "name": "Marie Curie",
-    "email": "marie.curie@radiance.lab",
-    "message": "Обещаю, мой код не настолько радиоактивен.",
-    "id": "U1V2W3X4Y5"
-  },
-  {
-    "name": "Galileo Galilei",
-    "email": "galileo@stars.space",
-    "message": "И всё-таки этот сервер крутится!",
-    "id": "Z6A7B8C9D0"
-  },
-  {
-    "name": "Julius Caesar",
-    "email": "caesar@rome.empire",
-    "message": "Пришёл. Увидел. Отправил POST-запрос.",
-    "id": "E1F2G3H4I5"
-  },
-  {
-    "name": "Cleopatra",
-    "email": "cleopatra@egypt.queen",
-    "message": "Надеюсь, интерфейс будет достоин царицы.",
-    "id": "J6K7L8M9N0"
-  },
-  {
-    "name": "Alexander the Great",
-    "email": "alexander@macedonia.world",
-    "message": "Покорил полмира, теперь хочу покорить ваш API.",
-    "id": "O1P2Q3R4S5"
-  },
-  {
-    "name": "Napoleon Bonaparte",
-    "email": "napoleon@empire.fr",
-    "message": "План был идеален... пока не встретился с багами.",
-    "id": "T6U7V8W9X0"
-  },
-  {
-    "name": "William Shakespeare",
-    "email": "william@globe.theatre",
-    "message": "Быть или не быть... вот в чём вопрос. И где документация?",
-    "id": "Y1Z2A3B4C5"
-  },
-  {
-    "name": "Bruce Lee",
-    "email": "bruce.lee@dragon.dojo",
-    "message": "Будь как вода... и как хорошо оптимизированный код.",
-    "id": "D6E7F8G9H0"
-  },
-  {
-    "name": "Michael Jackson",
-    "email": "michael@moonwalk.music",
-    "message": "Этот проект настолько хорош, что хочется сделать moonwalk.",
-    "id": "I1J2K3L4M5"
-  },
-  {
-    "name": "Elvis Presley",
-    "email": "elvis@graceland.rock",
-    "message": "Thank you, thank you very much... за отличный UI!",
-    "id": "N6O7P8Q9R0"
-  },
-  {
-    "name": "Charlie Chaplin",
-    "email": "charlie@silent.movie",
-    "message": "Иногда лучший комментарий к коду — его отсутствие.",
-    "id": "S1T2U3V4W5"
-  },
-  {
-    "name": "Steve Jobs",
-    "email": "steve.jobs@nextvision.com",
-    "message": "Давайте сделаем это не просто рабочим, а невероятным.",
-    "id": "X6Y7Z8A9B0"
-  },
-  {
-    "name": "Bill Gates",
-    "email": "bill.gates@windows.foundation",
-    "message": "Главное, чтобы не пришлось выпускать Service Pack.",
-    "id": "C1D2E3F4G5"
-  },
-  {
-    "name": "Mark Zuckerberg",
-    "email": "mark@metaverse.social",
-    "message": "Я уже добавил ваш проект в метавселенную.",
-    "id": "H6I7J8K9L0"
-  },
-  {
-    "name": "Cristiano Ronaldo",
-    "email": "cristiano@goat.football",
-    "message": "Siuuu! Этот проект заслуживает 10 из 10.",
-    "id": "M1N2O3P4Q5"
-  },
-  {
-    "name": "Lionel Messi",
-    "email": "leo.messi@magicfoot.ai",
-    "message": "Передаю идеальный пас... прямо вашему backend'у.",
-    "id": "R6S7T8U9V0"
-  }
+      "name": "Albert Einstein",
+      "email": "albert.einstein@relativitylab.com",
+      "message": "Время относительно. Но ответ на это сообщение хотелось бы получить сегодня 😄",
+      "id": "A1B2C3D4E5"
+    },
+    {
+      "name": "Nikola Tesla",
+      "email": "nikola.tesla@acpower.io",
+      "message": "У меня есть ещё парочка идей, которые опередили своё время.",
+      "id": "F6G7H8I9J0"
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "email": "leonardo@renaissance.art",
+      "message": "Нарисовал прототип вашего приложения ещё в XV веке.",
+      "id": "K1L2M3N4O5"
+    },
+    {
+      "name": "Isaac Newton",
+      "email": "isaac.newton@gravity.org",
+      "message": "Если яблоко упало, значит и дедлайн тоже приближается.",
+      "id": "P6Q7R8S9T0"
+    },
+    {
+      "name": "Marie Curie",
+      "email": "marie.curie@radiance.lab",
+      "message": "Обещаю, мой код не настолько радиоактивен.",
+      "id": "U1V2W3X4Y5"
+    },
+    {
+      "name": "Galileo Galilei",
+      "email": "galileo@stars.space",
+      "message": "И всё-таки этот сервер крутится!",
+      "id": "Z6A7B8C9D0"
+    },
+    {
+      "name": "Julius Caesar",
+      "email": "caesar@rome.empire",
+      "message": "Пришёл. Увидел. Отправил POST-запрос.",
+      "id": "E1F2G3H4I5"
+    },
+    {
+      "name": "Cleopatra",
+      "email": "cleopatra@egypt.queen",
+      "message": "Надеюсь, интерфейс будет достоин царицы.",
+      "id": "J6K7L8M9N0"
+    },
+    {
+      "name": "Alexander the Great",
+      "email": "alexander@macedonia.world",
+      "message": "Покорил полмира, теперь хочу покорить ваш API.",
+      "id": "O1P2Q3R4S5"
+    },
+    {
+      "name": "Napoleon Bonaparte",
+      "email": "napoleon@empire.fr",
+      "message": "План был идеален... пока не встретился с багами.",
+      "id": "T6U7V8W9X0"
+    },
+    {
+      "name": "William Shakespeare",
+      "email": "william@globe.theatre",
+      "message": "Быть или не быть... вот в чём вопрос. И где документация?",
+      "id": "Y1Z2A3B4C5"
+    },
+    {
+      "name": "Bruce Lee",
+      "email": "bruce.lee@dragon.dojo",
+      "message": "Будь как вода... и как хорошо оптимизированный код.",
+      "id": "D6E7F8G9H0"
+    },
+    {
+      "name": "Michael Jackson",
+      "email": "michael@moonwalk.music",
+      "message": "Этот проект настолько хорош, что хочется сделать moonwalk.",
+      "id": "I1J2K3L4M5"
+    },
+    {
+      "name": "Elvis Presley",
+      "email": "elvis@graceland.rock",
+      "message": "Thank you, thank you very much... за отличный UI!",
+      "id": "N6O7P8Q9R0"
+    },
+    {
+      "name": "Charlie Chaplin",
+      "email": "charlie@silent.movie",
+      "message": "Иногда лучший комментарий к коду — его отсутствие.",
+      "id": "S1T2U3V4W5"
+    },
+    {
+      "name": "Steve Jobs",
+      "email": "steve.jobs@nextvision.com",
+      "message": "Давайте сделаем это не просто рабочим, а невероятным.",
+      "id": "X6Y7Z8A9B0"
+    },
+    {
+      "name": "Bill Gates",
+      "email": "bill.gates@windows.foundation",
+      "message": "Главное, чтобы не пришлось выпускать Service Pack.",
+      "id": "C1D2E3F4G5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "email": "mark@metaverse.social",
+      "message": "Я уже добавил ваш проект в метавселенную.",
+      "id": "H6I7J8K9L0"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "email": "cristiano@goat.football",
+      "message": "Siuuu! Этот проект заслуживает 10 из 10.",
+      "id": "M1N2O3P4Q5"
+    },
+    {
+      "name": "Lionel Messi",
+      "email": "leo.messi@magicfoot.ai",
+      "message": "Передаю идеальный пас... прямо вашему backend'у.////////////",
+      "id": "R6S7T8U9V0"
+    }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
