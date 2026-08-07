@@ -1,14 +1,13 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import api from "../api/axios";
 
 export default function Catalog() {
   const [data, setData] = useState();
   const getData = async function () {
     try {
-      const res = await axios(
-        "http://localhost:3000/products",
-      );
+      const res = await api.get("/products")
       setData(res.data);
      
     } catch (error) {}
